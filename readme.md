@@ -28,6 +28,7 @@
 ## Running the bot
 ```sh
 npm install
+npm run build
 npm run start
 ```
 
@@ -73,6 +74,7 @@ docker run -p 3000:3000 -d upsignal-slack
 ## Botun Başlatılması
 ```sh
 npm install
+npm run build
 npm run start
 ```
 

@@ -1,0 +1,34 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "title": "Google - GET",
+      "description": "bla bla bla",
+      "url": "http://www.google.com",
+      "method": "GET",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "expectedStatus": 200,
+      "timeout": 10000,
+      "notifyOnErrorOnly": false
+    },
+    {
+      "id": 2,
+      "title": "My Example Site - POST",
+      "description": "Description",
+      "url": "https://examplesite.com/api/user/login",
+      "method": "POST",
+      "notifyOnErrorOnly": false,
+      "body": {
+        "email": "",
+        "password": ""
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "expectedStatus": 200,
+      "timeout": 10000
+    }
+  ]
+}

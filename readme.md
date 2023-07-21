@@ -2,6 +2,8 @@
 
 # UpSignal-SlackNotify
 
+UpSignal-SlackNotify is an open-source bot that monitors your website's uptime and alerts you via Slack. Stay ahead of downtime with real-time notifications.
+
 ## Setup
 - First, create a Slack channel (e.g., api-alert, alert).
 - Obtain your Slack bot token following the instructions in this video: https://www.youtube.com/watch?v=z9PD7-UXSbA
@@ -47,6 +49,8 @@ docker run -p 3000:3000 -d upsignal-slack
 ## TÜRKÇE
 
 # UpSignal-SlackNotify
+
+UpSignal-SlackNotify, web sitenizin çalışma süresini izleyen ve sizi Slack üzerinden bilgilendiren açık kaynaklı bir bottur. Gerçek zamanlı bildirimlerle hizmet dışı kalma sürelerinin önüne geçin.
 
 ## Kurulum
 - Öncelikle bir slack kanalı oluşturun (örnek: api-alert, alert).

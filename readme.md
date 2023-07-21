@@ -91,3 +91,6 @@ Container Çalıştırma
 ```sh
 docker run -p 3000:3000 -d upsignal-slack
 ```
+
+![Slack Message](https://github.com/BatuhanSevgil/UpSignal-SlackNotify/assets/58181311/8eb3b760-cf8d-4e82-aaf4-ab6280cb072c)
+
